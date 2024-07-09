@@ -1,0 +1,9 @@
+{
+  "captura datos de formulario": {
+    "prefix": "getDataForm",
+    "body": [
+      "  const {  } = Object.fromEntries(new FormData(e.currentTarget))"
+    ],
+    "description": "captura datos de formulario"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "name": "personal-snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "html",
+          "css",
+          "scss",
+          "json"
+        ],
+        "path": "./media.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "html",
+          "css",
+          "scss",
+          "json"
+        ],
+        "path": "./react.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "html",
+          "css",
+          "scss",
+          "json"
+        ],
+        "path": "./next.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "html",
+          "css",
+          "scss",
+          "json"
+        ],
+        "path": "./mongo.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "html",
+          "css",
+          "scss",
+          "json"
+        ],
+        "path": "./actions.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "html",
+          "css",
+          "scss",
+          "json"
+        ],
+        "path": "./JavaScript.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "html",
+          "css",
+          "scss",
+          "json"
+        ],
+        "path": "./cloudinary.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "html",
+          "css",
+          "scss",
+          "json"
+        ],
+        "path": "./eslint-Prettier.json"
+      }
+    ]
+  }
+}
