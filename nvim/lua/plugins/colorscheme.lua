@@ -4,6 +4,7 @@ return {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "catppuccin",
+      transparent_background = true,
     },
     integrations = {
       cmp = true,
@@ -15,9 +16,10 @@ return {
         enabled = true,
         indentscope_color = "",
       },
-    }
+    },
   },
   {
-    "xiyaowong/transparent.nvim", "xiyaowong/transparent.nvim",
+    "xiyaowong/transparent.nvim",
+    "xiyaowong/transparent.nvim",
   },
 }

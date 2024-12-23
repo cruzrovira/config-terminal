@@ -1,8 +1,8 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
-vim.api.nvim_set_keymap('n', '<C-Up>', ':m-2<CR>', { noremap = true, silent = true });
-vim.api.nvim_set_keymap('n', '<C-Down>', ':m+1<CR>', { noremap = true, silent = true });
+vim.api.nvim_set_keymap("n", "<C-Up>", ":m-2<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-Down>", ":m+1<CR>", { noremap = true, silent = true })
+
+----- OIL -----
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
 ----- Tmux Navigation ------
 local nvim_tmux_nav = require("nvim-tmux-navigation")
