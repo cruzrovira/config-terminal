@@ -1,0 +1,7 @@
+{
+  "Print Hello": {
+    "prefix": "hello",
+    "body": ["print('Hello, world!')"],
+    "description": "Print Hello World"
+  }
+}
