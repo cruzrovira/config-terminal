@@ -1,0 +1,12 @@
+{
+	"rel para html": {
+		"prefix": "rel",
+		"body": [
+			"rel=\"noopener noreferrer\""
+		],
+		"description": "configuracion de rel para etiqueta (a) en html"
+	}
+
+
+
+}

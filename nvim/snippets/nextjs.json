@@ -1,0 +1,75 @@
+{
+  "Creates a component next": {
+    "prefix": "next_rfc",
+    "body": [
+      "import Head from \"next/head\"",
+      "import Link from \"next/link\"",
+      "",
+      "const ${TM_FILENAME_BASE/(.{1})/${1:/upcase}/} = () => {",
+      "  return (",
+      "    <>",
+      "      $0",
+      "      <style jsx>{``}</style>",
+      "    </>",
+      "  )",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE/(.{1})/${1:/upcase}/}",
+      ""
+    ],
+    "description": "Creates a component next"
+  },
+  "creación de archivo _app": {
+    "prefix": "next_app",
+    "body": [
+      "import type { AppProps } from 'next/app'",
+      "import \"../styles/globals.css\"",
+      "",
+      "export default function App({ Component, pageProps }: AppProps) {",
+      "  return <Component {...pageProps} />",
+      "}"
+    ],
+    "description": "creación de archivo _app"
+  },
+  "getStaticProps": {
+    "prefix": "next_getStaticProps",
+    "body": [
+      "export async function getStaticProps({params}) {",
+      "  // realizar peticiones de tatos db o fetch ",
+      "  return {",
+      "    props: {",
+      "",
+      "    },",
+      "  };",
+      "}"
+    ],
+    "description": "getStaticProps"
+  },
+  "getServerSideProps": {
+    "prefix": "next_getServerSideProps",
+    "body": [
+      "export async function getServerSideProps(context) {",
+      "  // realizar peticiones de tatos db o fetch ",
+      "  return {",
+      "    props: {",
+      "",
+      "    },",
+      "  };",
+      "}"
+    ],
+    "description": "getStaticProps"
+  },
+  "getStaticPaths": {
+    "prefix": "next_getStaticPaths",
+    "body": [
+      "export async function getStaticPaths() {",
+      "  // retorna lista de posibles valores para la pagina ",
+      "  return {",
+      "",
+      "  }",
+      "}"
+    ],
+    "description": "getStaticPaths"
+  }
+}
+

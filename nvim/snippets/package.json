@@ -1,0 +1,61 @@
+{
+  "name": "example-snippets",
+	"contributes": {
+    "snippets":[
+      {
+      "language": [
+				"all"
+				],
+        "path": "./media.json"
+      }, 
+      {
+      "language": [
+				"all"
+				],
+        "path": "./action.json"
+      },
+        {
+      "language": [
+				"all"
+				],
+        "path": "./cloudinary.json"
+      }, 
+        {
+      "language": [
+				"all"
+				],
+        "path": "./eslint-prettier.json"
+      },
+        {
+      "language": [
+				"all"
+				],
+        "path": "./html.json"
+      }, 
+        {
+      "language": [
+				"all"
+				],
+        "path": "./javascript.json"
+      }, 
+        {
+      "language": [
+				"all"
+				],
+        "path": "./mongo.json"
+      },
+        {
+      "language": [
+				"all"
+				],
+        "path": "./nextjs.json"
+      },
+        {
+      "language": [
+				"all"
+				],
+        "path": "./react.json"
+      }
+    ]
+  }
+}

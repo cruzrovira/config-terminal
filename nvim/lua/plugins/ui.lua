@@ -1,3 +1,4 @@
+
 return {
   -- Plugin: noice.nvim
   -- URL: https://github.com/folke/noice.nvim
@@ -8,6 +9,11 @@ return {
       require("noice").setup({
         cmdline = {
           view = "cmdline", -- Use the cmdline view for the command-line
+        },
+        presets = {
+          bottom_search = true, -- Enable bottom search view
+          command_palette = true, -- Enable command palette view
+          lsp_doc_border = true, -- Enable LSP documentation border
         },
       })
     end,
@@ -26,7 +32,20 @@ return {
     },
   },
 
-
+  -- Plugin: lualine.nvim
+  -- URL: https://github.com/nvim-lualine/lualine.nvim
+  -- Description: A blazing fast and easy to configure Neovim statusline plugin.
+  {
+    "nvim-lualine/lualine.nvim",
+    event = "VeryLazy", -- Load this plugin on the 'VeryLazy' event
+    requires = { "nvim-tree/nvim-web-devicons", opt = true }, -- Optional dependency for icons
+    opts = {
+      options = {
+        theme = "kanagawa", -- Set the theme for lualine
+        icons_enabled = true, -- Enable icons in the statusline
+      },
+    },
+  },
 
   -- Plugin: incline.nvim
   -- URL: https://github.com/b0o/incline.nvim
@@ -94,4 +113,5 @@ return {
     },
     keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } }, -- Keybinding to toggle Zen Mode
   },
+
 }

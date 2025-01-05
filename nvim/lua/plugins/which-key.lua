@@ -7,7 +7,7 @@ return {
   "folke/which-key.nvim",
 
   event = "VeryLazy", -- Load this plugin on the 'VeryLazy' event
-  opts = { preset = "classic" }, -- Use the 'classic' preset for which-key
+
   init = function()
     -- Set the timeout for key sequences
     vim.o.timeout = true

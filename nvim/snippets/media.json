@@ -1,0 +1,85 @@
+{
+  "mediaScreenCss": {
+    "prefix": "media",
+    "body": ["@media screen and (min-width: $1 ){ $2 }"],
+    "description": "media screen css"
+  },
+
+  "writeBorderCss": {
+    "prefix": "border",
+    "body": ["border: 1px solid ${1:red};"],
+    "description": "write border 1px red "
+  },
+  "gridResponsiveCss": {
+    "prefix": "gridResponsive",
+    "body": [
+      "display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));"
+    ],
+    "description": "grid responsive"
+  },
+  "menu de hamburguesa": {
+    "prefix": "buttonMenuCss",
+    "body": [
+      "/* <label  from={button} className=\"cart-button\">",
+      " icono menu hamburguesa",
+      "</label>",
+      "<input type=\"button\" id={button} hidden /> ",
+      "*/",
+      ".menu-touch:hover {",
+      "  scale: 1.1;",
+      "}",
+      ".menu-touch ~ input:checked ~ .menu-oculto {",
+      "  height: 100%;",
+      "  display: block;",
+      "}"
+    ],
+    "description": "menu de hamburguesa"
+  },
+  "fuente del sistema": {
+    "prefix": "font-system",
+    "body": [
+      "'system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Ubuntu, \"Helvetica Neue\", sans-serif'",
+      "}"
+    ],
+    "description": "Fuente del sistema"
+  }, 
+  "Reset css joshwcomeau": {
+    "prefix": "cssReset",
+    "body": [
+      "",
+      "*, *::before, *::after {",
+      "  box-sizing: border-box;",
+      "}",
+      "",
+      "* {",
+      "  margin: 0;",
+      "}",
+      "",
+      "body {",
+      "  line-height: 1.5;",
+      "  -webkit-font-smoothing: antialiased;",
+      "}",
+      "",
+      "img, picture, video, canvas, svg {",
+      "  display: block;",
+      "  max-width: 100%;",
+      "}",
+      "input, button, textarea, select {",
+      "  font: inherit;",
+      "}",
+      "p, h1, h2, h3, h4, h5, h6 {",
+      "  overflow-wrap: break-word;",
+      " text-wrap: balance;",
+      "}",
+      "",
+      "p {",
+      "text-wrap: pretty;",
+      "}",
+      "#root, #__next {",
+      "  isolation: isolate;",
+      "}"
+    ],
+    "description": "Reset css joshwcomeau"
+  }
+}
+
